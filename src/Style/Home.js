@@ -16,8 +16,17 @@ export const Div = styled.div`
     height: 475px;
     margin: 0px 0px 200px 0px;
 `
+
+export const DivImgQuadrado = styled.div`
+    display: flex;
+`
+
+export const ImgQuadrado = styled.img`
+    padding: 10px;
+`
+
 export const H1DivQuadrado = styled.h1`
-    padding: 20px;
+    padding: 40px;
 `
 
 export const DivQuadradoBranco = styled.div`
@@ -26,8 +35,9 @@ export const DivQuadradoBranco = styled.div`
     height: 434px;
     border-radius: 20px;
     position: absolute;
-    top: 880px;
+    top: 900px;
     left: 80px;
+    box-shadow: 15px 12px 29px -6px rgba(0,0,0,0.59);
 `
 
 export const H1 = styled.h1`
@@ -45,7 +55,7 @@ export const H2 = styled.p`
 `
 
 export const P = styled.p`
-    padding: 20px;
+    padding: 30px;
 `
 
 export const SectionCard = styled.section`
@@ -59,4 +69,5 @@ export const SectionCard = styled.section`
 export const ImgCard = styled.img`
     padding: 10px;
     height: 400px
+    box-shadow: 15px 12px 29px -6px rgba(0,0,0,0.59);
 `

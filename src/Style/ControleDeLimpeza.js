@@ -4,6 +4,7 @@ export const DivPrincipal = styled.div`
     display: flex;
     justify-content: center;
     padding-top: 80px;
+    padding-bottom: 80px;
 ` 
 
 export const DivCardMaior = styled.div`
@@ -21,6 +22,7 @@ export const DivImg = styled.div`
     width: 410px;
     height: 772px;
     padding: 20px;
+    box-shadow: 15px 12px 29px -6px rgba(0,0,0,0.59);
 `
 
 export const H1 = styled.h1`

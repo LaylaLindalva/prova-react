@@ -1,6 +1,5 @@
 import { DivLink, H1, Nav } from "../Style/Header";
 import {Link }from "react-router-dom"
-import React from "react";
 
 
 const Header = ()=>{
